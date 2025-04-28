@@ -10,6 +10,8 @@ The primary goal of this project is to analyze the company's sales performance a
 - Providing data-driven recommendations to boost sales and improve marketing strategies.
 
 ![Screenshot 2025-04-28 102530](https://github.com/user-attachments/assets/db808916-29ca-4033-8835-ec4ab27a1eea)
+
+[click to view and interact with the dashboard](https://github.com/timiols/Sales-Performance-Analysis/blob/0088e5d1871c32d0236d17155891702fc78c1c36/SALES%20PERFORMANCE.pbix)
 ### Dataset
 The datset for this analysis consit of 240 rows and 10 columns some of which are;
 - **Regions:** North America, Europe, Asia
