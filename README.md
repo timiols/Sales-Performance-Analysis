@@ -21,6 +21,8 @@ Check out the dataset here [Sales Perfromance dataset](https://github.com/timiol
 ### Tools
 - Power BI
 - Power Query
+### Data Cleaning
+The data came in a structured Csv format and hence didn't require deep cleaning, missing values were handled, columns changed inot proper data format and a couple of neccessary measures were created.
 ### Exploratory Data Analysis
 Which product categories contribute most to total revenue?
 
@@ -42,7 +44,41 @@ Which products are the top sellers?
 
 ![Screenshot 2025-04-28 121442](https://github.com/user-attachments/assets/9a5f31db-1357-4eb5-b33b-3081acd39a9b)
 
-###
+### Data analysis
+Power BI dax functions was used to create and insert relevant measures to enhance the useability of the dataset. Here are the queries deployed in this analyis:
+```SQL
+Average order value = [Gross revenue]/[Total transactions]
+```
+```SQL
+Gross revenue = SUM(Sheet1[Total revenue])
+```
+```SQL
+Total transactions = COUNT(Sheet1[Transaction ID])
+```
+```SQL
+Total units sold = SUM(Sheet1[Units Sold])
+```
+### Results and Findings
+- January being the highest grossing month suggests strong performance early in the year, likely tied to seasonal demand 
+  (e.g.  post-holiday shopping or New Year promotions).
+- Electronics dominate revenue, followed by home appliances and sporting goods. Beauty and books contribute marginally.
+- North America is the leading region, contributing almost half of total revenue.
+- Credit cards are by far the preferred payment method - used in over 60% of sales made.
+- High-ticket electronics such as Canon EOS R5 Camera and LG OLED TV are leading revenue drivers, despite low unit sales.
+
+Recommendation
+-   Expand product offerings in Electronics category.
+-   Explore Regional Growth in Asia and Europe by targeting marketing or localized promotions.
+-   Offer Promotions in Off-Peak Months through discounts or marketing campaigns. This will Boost sales in months like July and
+    August.
+-  Diversify Payment Options by integrating other payment methods to reduce the dominance of credit cards.
+
+
+
+
+
+
+
 
 
 
