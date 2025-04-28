@@ -9,5 +9,4 @@ The primary goal of this project is to analyze the company's sales performance a
 - Discovering monthly seasonality and sales peaks.
 - Providing data-driven recommendations to boost sales and improve marketing strategies.
 
-![Screenshot 2025-04-27 125537](https://github.com/user-attachments/assets/183c1293-c11d-48a4-aa5b-f2dff31f5a8e)
-### Dataset
+![Screenshot 2025-04-28 102530](https://github.com/user-attachments/assets/db808916-29ca-4033-8835-ec4ab27a1eea)
